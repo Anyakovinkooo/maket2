@@ -74,7 +74,7 @@ html {
 .list__item:nth-child(odd) {
   background-color: #2a3438;
 }
-.price-card__button {
+.price-card__order-btn {
   background-color: #5bb189;
   border-radius: 20px;
   height: 40px;
@@ -87,5 +87,7 @@ html {
   padding: 11px 26px 12px 27px;
   margin-top: 40px;
   border: none;
-  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  margin-left: 112px;
 }
